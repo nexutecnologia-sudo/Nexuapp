@@ -1,0 +1,29 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#223c5e"/>
+      <stop offset="100%" stop-color="#11243a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe28a"/>
+      <stop offset="100%" stop-color="#bfa14f"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer circle border -->
+  <circle cx="200" cy="200" r="195" fill="url(#gold)" />
+  <!-- Inner circle background -->
+  <circle cx="200" cy="200" r="180" fill="url(#bg)" />
+
+  <!-- Main "NXU" text -->
+  <text x="50%" y="55%" text-anchor="middle" fill="url(#gold)" font-size="95" font-weight="bold" font-family="Arial, sans-serif" letter-spacing="10">NXU</text>
+
+  <!-- Top text -->
+  <text x="50%" y="60" text-anchor="middle" fill="#ffe28a" font-size="26" font-family="Arial, sans-serif">DIGITAL ASSET</text>
+  <!-- Bottom text, curved -->
+  <path id="curve" d="M 70 340 A 140 140 0 0 1 330 340" fill="none"/>
+  <text font-size="26" fill="#ffe28a" font-family="Arial, sans-serif">
+    <textPath startOffset="50%" text-anchor="middle" xlink:href="#curve">DECENTRALIZED TOKEN</textPath>
+  </text>
+  
+  <!-- Optional: Inner tech decorations and blue glow can be added for more realism with illustration tools -->
+</svg>
